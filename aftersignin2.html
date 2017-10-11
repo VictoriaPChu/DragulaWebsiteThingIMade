@@ -1,0 +1,79 @@
+
+<head>
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='css/gallery.css' rel='stylesheet' type='text/css' media='screen'>
+    <link href='style.css' rel='stylesheet' type='text/css' media='screen'>
+    <meta charset='utf-8'>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='dist/dragula.css' rel='stylesheet' type='text/css' />
+    <link href='example/example.css' rel='stylesheet' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    
+    $("#btn2").click(function(){
+        $("#left-defaults").append("<div>Goal <input placeholder='Finish History Homework: 40 min' /></div>");
+    });
+});
+</script>
+
+</head>
+
+<body>
+  <div class="sidebar">
+
+    <a href="Signup.html">
+      <div class="sidebar-elem"> <h2>Welcome</h2></div>
+    </a>
+    <a href="Edit.html">
+        <div class="sidebar-elem">My Profile</div>
+    </a>
+    <a onclick="scrollToHash('Contact')">
+      <div class=" sidebar-elem ">Contact</div>
+    </a>
+    <a onclick="scrollToHash('FAQs')">
+      <div class="sidebar-elem ">Tools</div>
+    </a>
+    <a href="index.html">
+      <div class="sidebar-elem">Add...</div>
+    </a>
+    <a href="index.html">
+      <div class="sidebar-elem">Messages</div>
+    </a>
+  </div>
+  <div class="header-section action-shot2" title="Sup.">
+    <div class="title">
+      <div>
+        <div class='examples'>
+          <div class='parent'>
+            <h2> Study Page </h2>  
+            <label for='hy'>Add your classes to the gray box.</label>
+            <div class='wrapper'>
+              <div id='left-defaults' class='container'>
+                <div>Political Behavior</div>
+                <div>AP Stats</div>
+              </div>
+              <div id='right-defaults' class='container'>
+                <div>
+                <button id="btn2">Add a schedule goal</button></div>
+
+                <div>Search <input placeholder='Search' /></div>
+                <div>AP Literature</div>
+                <div>AP Psychology</div>
+                <div>Calculus</div>
+                <div>   
+                  <img class="thumbnail" src= "https://placekitten.com/g/500/300"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<script src='dist/dragula.js'></script>
+<script src='example/example.min.js'></script>
+
+    </body>
